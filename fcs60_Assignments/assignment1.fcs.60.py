@@ -18,7 +18,7 @@ else:
     print("Invalid input!")
 
 print("\nExercise 2 ")
-print("Even or Odd Number Checker\n")
+print("Even or Odd Number Checker")
 
 n = input("Enter a random number: ")
 
@@ -32,3 +32,16 @@ if n.isdigit():
 else:
     print("Invalid input!")
 
+print("\nExercise 3 ")
+print("Simple Login System")
+
+username = "admin" 
+password ="1234" 
+
+username_inp = input ("Enter your username:")
+password_inp = input("Enter your password")
+
+if username_inp == username and password_inp == password : 
+    print("Access granted") 
+else:
+    print("Access denied")
