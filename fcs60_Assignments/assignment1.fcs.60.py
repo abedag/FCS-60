@@ -16,3 +16,19 @@ if age.isdigit():
         print("Invalid age")
 else:
     print("Invalid input!")
+
+print("\nExercise 2 ")
+print("Even or Odd Number Checker\n")
+
+n = input("Enter a random number: ")
+
+if n.isdigit():
+    n = int(n)
+
+    if n%2 == 0:
+        print(f"{n} is an even number")
+    else:
+        print(f"{n} is an odd number")
+else:
+    print("Invalid input!")
+
